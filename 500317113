@@ -8,7 +8,7 @@ function EmbedForm() {
     };
     this.createForm = function() {
         var ie_check = !!window.ActiveXObject;
-        var iframe = "<iframe id=\"RSVPifyIFrame\" style=\"width:100%; border:none;\" onload=\"window.parent.scrollTo(0,0)\" allowtransparency=\"true\" src=\"" + this.currentProtocol + "://laureneric.app.rsvpify.com/?embed=1&js=1\" frameborder=\"0\" scrolling=\"no\"></iframe>";
+        var iframe = "<iframe id=\"RSVPifyIFrame\" style=\"width:100%; border:none;\" onload=\"window.parent.scrollTo(0,0)\" allowtransparency=\"true\" src=\"" + this.currentProtocol + "://laureneric.app.rsvpify.com/?js=1\" frameborder=\"0\" scrolling=\"no\"></iframe>";
         document.write(iframe);
         this.iframe = document.getElementById("RSVPifyIFrame");
         if (ie_check === true) {
