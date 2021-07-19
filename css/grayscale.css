@@ -311,3 +311,19 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+.btn-rsvp {
+  text-align: center;
+  font-weight:700;
+  font-size: 1.25rem;
+  border-radius: .5rem;
+  display: inline-block;
+  color: white;
+  background: #64a19d;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+  margin: calc(25vh - 3rem) 0rem;
+}
